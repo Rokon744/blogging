@@ -1,5 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import 'tailwindcss/tailwind.css'
 
 const outfit = Outfit({ subsets: ["latin"], weight:["400", "500", "600", "700"] });
 
